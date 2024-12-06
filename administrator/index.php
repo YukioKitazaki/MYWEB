@@ -27,7 +27,7 @@
         <div id="right_div">
         
         </div>
-        <div id="bottom_div"></div>
+        <!-- <div id="bottom_div"></div> -->
         <div id="signoutbutton">
             <a href="./element_T/mUser/userAct.php?reqact=userlogout">
                 <img src="img_T/logout.png" class="iconbutton"/>

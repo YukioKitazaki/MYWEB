@@ -1,4 +1,4 @@
-<div>Quản lý người dùng</div>
+<div align="center"><h4>Quản lý người dùng </h4></div>
 <hr>
 <div> <h3>Người dùng mới</h3></div>
 <div>
