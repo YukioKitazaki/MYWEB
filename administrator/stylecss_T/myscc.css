@@ -86,8 +86,8 @@ a{
     height: 20px;
 }
 #loginBody{
-    border: solid 1px;
-    width: 300px;
+    border: 1px solid;
+    width: 400px;
     height: 150px;
     margin: auto auto ;
     border-radius: 10px;

@@ -31,7 +31,7 @@
             </div>
             <div class="col-auto">
                 <span id="passwordHelpInline" class="form-text">
-                Must be 8-20 characters long.
+                Must be 7-20 characters long.
                 </span>
             </div>
             </div>

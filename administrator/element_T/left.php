@@ -7,53 +7,22 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 </head>
 <body>
-    <div><a href="index.php.">Menu</a></div>
-  <!-- <div class="cateOrder">
-      <a href="#">Quản lý</a>
-  </div>
-  <div class="itemOrder">
-      <ul>
-          <li><a href="index.php?reqact=userview">Tài khoản</a> </li>
-          <li><a href="index.php?reqact=loaihangview">Loại hàng</a> </li>
-          <li><a href="index.php?reqact=hanghoaview">Hàng hóa</a> </li>
-          <li><a href="index.php?reqact=thuoctinhview">Thuộc tính</a> </li>
-          <li><a href="index.php?reqact=thuonghieuview">Thương hiệu</a> </li>
-          <li><a href="index.php?reqact=dongiaview">Đơn giá</a> </li>
-          <li><a href="index.php?reqact=thuoctinhhanghoaview">Thuộc tính hàng hóa</a> </li> -->
-          <nav class="navbar navbar-expand-lg bg-body-tertiary">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="#">Quản lý</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      ---
-                    </a>
-                    <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="index.php?reqact=userview">Tài khoản</a></li>
-                      <li><hr class="dropdown-divider"></li>
-                      <li><a class="dropdown-item" href="index.php?reqact=loaihangview">Loại hàng</a></li>
-                      <li><a class="dropdown-item" href="index.php?reqact=hanghoaview">Hàng hóa</a></li>
-                      <li><a class="dropdown-item" href="index.php?reqact=thuoctinhhanghoaview">Thuộc tính hàng hóa </a></li>
-                      <li><a class="dropdown-item" href="index.php?reqact=thuoctinhview">Thuộc tính </a></li>
-                      <li><hr class="dropdown-divider"></li>
-                      <li><a class="dropdown-item" href="index.php?reqact=thuonghieuview">Thương hiệu </a></li>
-                      <li><a class="dropdown-item" href="index.php?reqact=dongiaview">Đơn Giá</a></li>          
-                    </ul>
-                  </li>
-                </ul>
-                <form class="d-flex" role="search">
-                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                  <button class="btn btn-outline-success" type="submit">Search</button>
-                </form>
-              </div>
-            </div>
-          </nav>
-  </div>
+    <div><a href="index.php" class="btn btn-primary">Menu</a></div>
+    <div class="cateOrder">
+        <a href="#" class="btn btn-secondary">Quản lý</a>
+    </div>
+    <div class="itemOrder">
+        <ul class="list-group">
+            <li class="list-group-item"><a href="index.php?reqact=userview">Tài khoản</a></li>
+            <li class="list-group-item"><a href="index.php?reqact=loaihangview">Loại hàng</a></li>
+            <li class="list-group-item"><a href="index.php?reqact=hanghoaview">Hàng hóa</a></li>
+            <li class="list-group-item"><a href="index.php?reqact=thuoctinhview">Thuộc tính</a></li>
+            <li class="list-group-item"><a href="index.php?reqact=thuonghieuview">Thương hiệu</a></li>
+            <li class="list-group-item"><a href="index.php?reqact=dongiaview">Đơn giá</a></li>
+            <li class="list-group-item"><a href="index.php?reqact=thuoctinhhanghoaview">Thuộc tính hàng hóa</a></li>
+        </ul>
+    </div>
+    
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>
-   
