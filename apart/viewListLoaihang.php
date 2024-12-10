@@ -14,31 +14,27 @@ $hanghoa = new hanghoa();
 if (isset($_GET['reqView'])) {
     $idloaihang = $_GET['reqView'];
     $list_hanghoa = $hanghoa->HanghoaGetbyIdloaihang($idloaihang);
-} else {
+}
+elseif (isset($_GET['reqthuonghieu'])){
+    $idthuonghieu = $_GET['reqthuonghieu'];
+    $list_hanghoa = $hanghoa->HanghoaGetbyIdthuonghieu($idthuonghieu);
+} 
+else {
     $list_hanghoa = $hanghoa->hanghoaGetAll();
 }
 ?>
-<?php
-require 'administrator/element_T/mod/hanghoaCls.php';
-$hanghoa = new hanghoa();
-if (isset($_GET['reqView'])) {
-    $idthuoctinh = $_GET['reqView'];
-    $list_hanghoa = $hanghoa->HanghoaGetbyIdloaihang($idthuoctinh);
-} else {
-    $list_hanghoa = $hanghoa->hanghoaGetAll();
-}
-?>
-<div class="container">
+
+<div class="container mt-4">
     <div class="row">
         <?php 
         if (count($list_hanghoa) > 0) {
             foreach ($list_hanghoa as $item) {
                 ?>
-                <div class="col-md-2 mb-2">
-                    <div class="card">
-                        <img src="data:image/png;base64,<?php echo $item->hinhanh; ?>" class="card-img-top imgHanghoa" alt="<?php echo $item->tenhanghoa; ?>">
+                <div class="col-md-3 col-sm-6 mb-4">
+                    <div class="card h-100">
+                        <img src="data:image/png;base64,<?php echo $item->hinhanh; ?>" class="card-img-top img-fluid" alt="<?php echo $item->tenhanghoa; ?>">
                         <div class="card-body">
-                            <h5 class="card-title">Sản phẩm: <?php echo $item->tenhanghoa; ?></h5>
+                            <h5 class="card-title"><?php echo $item->tenhanghoa; ?></h5>
                             <p class="card-text">Giá bán: <?php echo $item->giathamkhao; ?> đ</p>
                             <a href="./index.php?reqHanghoa=<?php echo $item->idhanghoa; ?>" class="btn btn-primary">Xem chi tiết</a>
                         </div>

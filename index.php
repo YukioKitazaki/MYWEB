@@ -17,6 +17,11 @@
     </div>
     <div id="lvThree">
         <?php 
+            require './apart/menuThuonghieu.php';
+        ?>
+    </div>
+    <div id="lvFour">
+        <?php 
             if(!isset($_GET['reqHanghoa'])){
                 require 'apart/viewListLoaihang.php';
             }else{
