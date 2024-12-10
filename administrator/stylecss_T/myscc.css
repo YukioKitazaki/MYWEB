@@ -1,6 +1,67 @@
 #top_div{
     width: 100%;
+    min-height: 150px;
+    border: solid 1px;
+    border-radius: 20px;
+    -webkit-borderr-radius:20px;
+    -moz-borderr-radius:20px;
+    -ms-borderr-radius:20px;
+    -o-borderr-radius:20px;
+    box-shadow: 5px 5px lightgray;
+    margin-top: 0px;
+    padding: 5px;
+}
+#left_div{
+    min-height: 500px;
+    width: 20%;
+    float: left;
+    border: solid 1px;
+    border-radius: 10px;
+    -webkit-borderr-radius:10px;
+    -moz-borderr-radius:10px;
+    -ms-borderr-radius:10px;
+    -o-borderr-radius:10px;
+    box-shadow: 5px 5px lightgray;
+    margin: 5px;
+    margin: 5px;
+    padding: 5px;
+}
+#center_div{
+    min-height: 500px;
+    width: 60%;
+    float: left;
+    border: solid 1px;
+    border-radius: 10px;
+    -webkit-borderr-radius:10px;
+    -moz-borderr-radius:10px;
+    -ms-borderr-radius:10px;
+    -o-borderr-radius:10px;
+    box-shadow: 5px 5px lightgray;
+    margin: 5px;
+    margin: 5px;
+    padding: 5px;
+
+}  
+/* #right_div{
+    min-height: 500px;
+    width: 5%;
+    float: left;
+    border: solid 1px;
+    border-radius: 10px;
+    -webkit-borderr-radius:10px;
+    -moz-borderr-radius:10px;
+    -ms-borderr-radius:10px;
+    -o-borderr-radius:10px;
+    box-shadow: 5px 5px lightgray;
+    margin: 5px;
+    margin-right: 0px;
+    padding: 5px;
+} */
+
+#bottom_div{
     min-height: 100px;
+    width: 100%;
+    clear: both;
     border: solid 1px;
     border-radius: 20px;
     -webkit-borderr-radius:20px;
@@ -9,56 +70,9 @@
     -o-borderr-radius:20px;
     box-shadow: 5px 5px lightgray;
     margin: 5px;
-    padding: 5px;
-}
-#left_div{
-    min-height: 200px;
-    width: 30%;
-    float: left;
-    border: solid 1px;
-    border-radius: 10px;
-    -webkit-borderr-radius:10px;
-    -moz-borderr-radius:10px;
-    -ms-borderr-radius:10px;
-    -o-borderr-radius:10px;
-    box-shadow: 5px 5px lightgray;
-    margin: 15px;
     margin: 5px;
     padding: 5px;
-    background-color: rgb(196, 196, 196);
 }
-#center_div{
-    min-height: 500px;
-    width: 55%;
-    float: left;
-    border: 1px solid ;
-    border-radius: 10px;
-    -webkit-borderr-radius:10px;
-    -moz-borderr-radius:10px;
-    -ms-borderr-radius:10px;
-    -o-borderr-radius:10px;
-    box-shadow: 5px 5px lightgray;
-    margin: 1px 50px 100px 10px;
-    padding: 5px;
-    padding-right: 0px;
-    background-color: rgba(221, 228, 228, 0.555);
-}  
-/* #right_div{
-    min-height: 500px;
-    width: 6%;
-    float: left;
-    border: solid 1px;
-    border-radius: 10px;
-    -webkit-borderr-radius:10px;
-    -moz-borderr-radius:10px;
-    -ms-borderr-radius:10px;
-    -o-borderr-radius:10px;
-    box-shadow: 5px 5px lightgray;
-    margin: 0px 0px 1000px 3px; 
-    padding: 0px;
-   
-} */
-
 p{
     color:red;
 }
@@ -85,18 +99,20 @@ a{
 .iconimg{
     height: 20px;
 }
-#loginBody{
-    border: 1px solid;
-    width: 400px;
-    height: 150px;
-    margin: auto auto ;
-    border-radius: 10px;
-    -webkit-border-radius:10px;
-    -moz-border-radius:10px;
-    -ms-border-radius:10px;
-    -o-border-radius:10px;
-    box-shadow:5px 5px rgba(211, 211, 211, 0.757) ;
-}
+.bodybackground{ background-color: #343a40; /* Màu nền sang trọng */ 
+    height: 100vh; 
+    display: flex; justify-content: center;
+    align-items: center; 
+    margin: 0; } 
+#loginBody { 
+    background-color: #ffffff; /* Màu nền của form */ 
+    padding: 20px; 
+    border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Hiệu ứng đổ bóng */ 
+} 
+h4 { 
+    color: #233abd; /* Màu của tiêu đề */ 
+} 
+   label, span { color: #343a40; /* Màu của nhãn và span */ }
 #signoutbutton{
     position: fixed;
     z-index: 2;
@@ -203,15 +219,6 @@ a{
     background-color: whitesmoke;
 
 }
-
-
-h4{
-    background-color: rgb(16, 153, 222);
-}
-
-.col-form-label{
-    background-color: rgb(192, 189, 194);
-}
 #w_update_ctn{
     position: absolute;
     z-index: 1;
@@ -271,4 +278,21 @@ h4{
     box-shadow: 10px 10px gainsboro;
     background-color: whitesmoke;
 
+}
+
+.fade-in-text {
+    position: relative;
+    animation: fadeIn 3s forwards;
+    opacity: 0;
+}
+
+@keyframes fadeIn {
+    0% {
+        left: -100px;
+        opacity: 0;
+    }
+    100% {
+        left: 0;
+        opacity: 1;
+    }
 }

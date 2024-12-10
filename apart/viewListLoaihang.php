@@ -18,6 +18,16 @@ if (isset($_GET['reqView'])) {
     $list_hanghoa = $hanghoa->hanghoaGetAll();
 }
 ?>
+<?php
+require 'administrator/element_T/mod/hanghoaCls.php';
+$hanghoa = new hanghoa();
+if (isset($_GET['reqView'])) {
+    $idthuoctinh = $_GET['reqView'];
+    $list_hanghoa = $hanghoa->HanghoaGetbyIdloaihang($idthuoctinh);
+} else {
+    $list_hanghoa = $hanghoa->hanghoaGetAll();
+}
+?>
 <div class="container">
     <div class="row">
         <?php 

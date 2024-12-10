@@ -21,12 +21,13 @@
             <li class="list-group-item"><a href="index.php?reqact=thuonghieuview">Thương hiệu</a></li>
             <li class="list-group-item"><a href="index.php?reqact=dongiaview">Đơn giá</a></li>
             <li class="list-group-item"><a href="index.php?reqact=thuoctinhhanghoaview">Thuộc tính hàng hóa</a></li>
+            <li class="list-group-item"><a href="index.php?reqact=chungtunhapview">Chứng từ nhập</> </li>
+            <li class="list-group-item"><a href="index.php?reqact=chitietchungtunhapview">Chi tiết chứng từ nhập</a> </li>
+            <li class="list-group-item"><a href="index.php?reqact=chungtuxuatview">Chứng từ xuất</a> </li>
+            <li class="list-group-item"><a href="index.php?reqact=chitietchungtuxuatview">Chi tiết chứng từ xuất</a> </li>
         </ul>
     </div>
-        <li><a href="index.php?reqact=chungtunhapview">Chứng từ nhập</a> </li>
-        <li><a href="index.php?reqact=chitietchungtunhapview">Chi tiết chứng từ nhập</a> </li>
-        <li><a href="index.php?reqact=chungtuxuatview">Chứng từ xuất</a> </li>
-        <li><a href="index.php?reqact=chitietchungtuxuatview">Chi tiết chứng từ xuất</a> </li>
+       
         
     
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>

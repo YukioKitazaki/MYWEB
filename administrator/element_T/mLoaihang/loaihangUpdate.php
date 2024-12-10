@@ -7,7 +7,7 @@
     //echo $idloaihang;
     //load dữ liệu đối tượng
     $lhObj = new loaihang();
-    $getlhUpdate = $lhObj->LoaihangGetById($idloaihang);
+    $getlhUpdate = $lhObj->loaihangGetById($idloaihang);
     // echo $getloaihangUpdate->hoten;
 ?>
 <div>

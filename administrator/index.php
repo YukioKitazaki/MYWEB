@@ -3,7 +3,7 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>đây là website của tôi</title>
+        <title>đây là website của Admin trang quản lí bán hàng </title>
         <link rel="stylesheet" href="./stylecss_T/myscc.css">
         <script type="text/javascript" src="./js_T/jquery-3.7.1.min.js"></script>
         <script type="text/javascript" src="./js_T/jscrip.js"></script>

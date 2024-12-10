@@ -26,8 +26,10 @@ foreach ($list_lh as $v) {
 
 <nav class="navbar navbar-expand ">
     <div class="container-fluid">
-        <a class="navbar-brand me-auto" href="./index.php">Trang chủ</a>
+
         <ul class="navbar-nav">
+            <li class="nav-item"><a class="nav-link active" aria-current="page" href="./index.php">Trang chủ</a></li>
+
             <?php
             // Hiển thị danh sách loại hàng trong navigation
             foreach ($list_lh as $v) {
