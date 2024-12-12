@@ -77,7 +77,18 @@ class hanghoa extends Database {
     
 
         // Các phương thức khác...
-    
+
+            
+            public function searchHanghoa($searchTerm) {
+                $query = "SELECT * FROM hanghoa WHERE tenhanghoa LIKE ?";
+                $stmt = $this->connect->prepare($query);
+                $searchTerm = "%$searchTerm%";
+                $stmt->execute([$searchTerm]);
+                $stmt->setFetchMode(PDO::FETCH_OBJ);
+                return $stmt->fetchAll();
+            }
+      
+        
     
 }
 ?>
